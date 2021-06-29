@@ -1,5 +1,8 @@
 function list(names){
-  let len = names.length;
+  const len = names.length;
   if(len == 0) return '';
-  return names.slice(0, len - 1).map(p => p.name).join(", ") + (len > 1 ? ' & ' : '') + names[len-1].name;
+  let a = names.slice(0, len - 1).map(p => p.name).join(", ");
+  let b = (len > 1 ? ' & ' : '');
+  let c = names[len - 1].name;
+  return a + b + c;
 }
