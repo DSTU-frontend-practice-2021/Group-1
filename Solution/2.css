@@ -1,15 +1,15 @@
-//*Пунктирный круг*//
+/*Пунктирный круг*/
 .circle {
     position: absolute;
     float: left;
     border: 3px dashed black;
-    background-color: trasnporent;
+    background-color: transparent;
     padding: 10px;
     border-radius: 50%;
     height: 120px;
     width:  120px;
 }
-//*Тень пунктирного круга и анимация к нему*//
+/*Тень пунктирного круга и анимация к нему*/
 .circle2 {
     float: left;
     
@@ -26,7 +26,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-//*Перемещение тени круга*//
+/*Перемещение тени круга*/
 @keyframes yellow-circle{
     0%{
        margin-left: 20px;
@@ -35,7 +35,7 @@
          margin-left: 120px;
     }
 }  
-//*Сердце*//
+/*Сердце*/
 .heart {
     position: relative;
     width: 100px;
