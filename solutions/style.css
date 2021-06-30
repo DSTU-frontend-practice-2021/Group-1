@@ -10,7 +10,7 @@
 	border-radius: 5%;
 }
 
-.planeta {
+.planet {
 	height: 40%; 
 	width: 40%;
 	position: relative;
@@ -18,80 +18,53 @@
 	border-radius: 50%;
 	left: 30%;
 	top: 30%;
-
 	transform: rotate(25deg);
 }
+.star{
 
-.star_1{
-	height: 3%; 
-	width: 3%;
 	position: relative;
 	background-color: white;
 	border-radius: 50%;
-	left: 15%;
-	top: -25%;
 	animation-name: mer;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-direction: normal;
 }
+.star_1{	
+  height: 3%; 
+	width: 3%;
+  left: 15%;
+	top: -25%;
+}
 
 .star_2{
-	height: 4%; 
+  height: 4%; 
 	width: 4%;
-	position: relative;
-	background-color: white;
-	border-radius: 50%;
 	left: 85%;
-	animation-name: mer;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-direction: normal;
 	animation-delay: 1s;
 }
 
 .star_3{
-	height: 2%; 
+  height: 2%; 
 	width: 2%;
-	position: relative;
-	background-color: white;
-	border-radius: 50%;
-	left: 85%;
-	top: 25%;
-	animation-name: mer;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-direction: normal;
-	animation-delay: 3s;
+	left: 79%;
+	top: -45%;
+	animation-delay: 4s;
 }
 
 .star_4{
-	height: 3%; 
+  height: 3%; 
 	width: 3%;
-	position: relative;
-	background-color: white;
-	border-radius: 50%;
-	left: 15%;
+	left: 35%;
 	top: 5%;
-	animation-name: mer;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-	animation-direction: normal;
 	animation-delay: 2s;
 }
 
 .star_5{
-	height: 3%; 
+  height: 3%; 
 	width: 3%;
-	position: relative;
-	background-color: white;
-	border-radius: 50%;
 	left: 60%;
-	top: 35%;
-	animation-name: mer;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-direction: normal;
+	top: -75%;
 	animation-delay: 3s
 }
 
@@ -113,173 +86,107 @@
  	font-size: 34px;
 }
 
-
-#rcorners {
+.rcorners{
   position:absolute;
   border-radius: 1em / 1em;
   background: #bc804c;
   padding: 5px;
-  width: 45px;
   height: 1px;
-  top: 120px;
-  left:170px;
   z-index:1;
 }
-#rcorners_2 {
-  position:absolute;
-  border-radius: 1em / 1em;
-  background: #bc804c;
-  padding: 5px;
+
+.rcorners_1 {
+  width: 45px;
+  top: 120px;
+  left:170px;  
+}
+
+
+.rcorners_2 { 
   width: 85px;
-  height: 1px;
   top: 139px;
   left: 145px;
-  z-index:1;
 }
-#rcorners_3 {
-  position:absolute;
-  border-radius: 1em / 1em;
-  background: #bc804c;
-  padding: 5px;
+.rcorners_3 {
   width: 75px;
-  height: 1px;
   top: 158px;
   left: 157px;
-  z-index:1;
 }
-#rcorners_4 {
-  position:absolute;
-  border-radius: 1em / 1em;
-  background: #bc804c;
-  padding: 5px;
+.rcorners_4 {
   width: 20px;
-  height: 1px;
   top: 180px;
   left: 145px;
-  z-index:1;
 }
-#rcorners_5 {
-  position:absolute;
-  border-radius: 1em / 1em;
-  background: #bc804c;
-  padding: 5px;
+.rcorners_5 {
   width: 55px;
-  height: 1px;
   top: 195px;
   left:125px;
-  z-index:1;
+ 
 }
-#rcorners_6 {
-  position:absolute;
-  border-radius: 1em / 1em;
-  background: #bc804c;
-  padding: 5px;
+.rcorners_6 {
   width: 10px;
-  height: 1px;
   top: 195px;
   left: 195px;
-  z-index:1;
+ 
 }
-#rcorners_7 {
-  position:absolute;
-  border-radius: 1em / 1em;
-  background: #bc804c;
-  padding: 5px;
-  width: 35px;
-  height: 1px;
+.rcorners_7 {
+  width: 35px;  
   top: 214px;
   left:135px;
-  z-index:1;
 }
-#cavity_1 {
+
+.cavity_rect{
   position:absolute;
   background: #bc804c;
   padding: 5px;
   width: 15px;
   height: 3px;
+  z-index:1;
+}
+.cavity_round{
+  position:absolute;
+  border-radius: 1em / 1em;
+  background:rgb(255,208,171);
+  width: 15px;
+  height: 8px;
+  z-index:1; 
+}
+.cavity_1{
   top: 127px;
   left:180px;
-  z-index:1;
 }
-#cavity_1_1 {
-  position:absolute;
-  border-radius: 1em / 1em;
-  background:rgb(255,208,171);
-  width: 15px;
-  height: 8px;
+
+.cavity_1_1 {
   top: 131px;
   left:170px;
-  z-index:1;
 }
-#cavity_1_2{
-  position:absolute;
-  border-radius: 1em / 1em;
-  background:rgb(255,208,171);
-  width: 15px;
-  height: 8px;
+.cavity_1_2{
   top: 131px;
   left:200px;
-  z-index:1;
 }
-#cavity_2 {
-  position:absolute;
-  background: #bc804c;
-  padding: 5px;
-  width: 15px;
-  height: 3px;
+.cavity_2 {
   top: 150px;
   left:195px;
-  z-index:1;
 }
-#cavity_2_1 {
-  position:absolute;
-  border-radius: 1em / 1em;
-  background:rgb(255,208,171);
-  width: 15px;
-  height: 8px;
+.cavity_2_1 {
   top: 150px;
   left:185px;
-  z-index:1;
 }
-  #cavity_2_2 {
-  position:absolute;
-  border-radius: 1em / 1em;
-  background:rgb(255,208,171);
-  width: 15px;
-  height: 8px;
+ .cavity_2_2 {
   top: 150px;
   left:215px;
-  z-index:1;
 }
-#cavity_3 {
-  position:absolute;
-  background: #bc804c;
-  padding: 5px;
-  width: 15px;
-  height: 3px;
+.cavity_3 {
   top: 205px;
   left:150px;
-  z-index:1;
 }
-#cavity_3_1 {
-  position:absolute;
-  border-radius: 1em / 1em;
-  background:rgb(255,208,171);
-  width: 15px;
-  height: 8px;
+.cavity_3_1 {
   top: 206px;
   left:140px;
-  z-index:1;
 }
-  #cavity_3_2 {
-  position:absolute;
-  border-radius: 1em / 1em;
-  background:rgb(255,208,171);
-  width: 15px;
-  height: 8px;
+  .cavity_3_2 {
   top: 206px;
   left:170px;
-  z-index:1;
 }
 .planet_transparent {
 	height: 40%; 
