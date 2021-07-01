@@ -6,8 +6,8 @@ body {
 
 #rectangle11 {
 	position: absolute;
-	width: 1904px;
-	height: 954px;
+	width: 1734px;
+	height: 688px;
 	overflow: hidden;
 	background: #f1f1f1;
   	box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -18,14 +18,14 @@ body {
 	font-family: Arial;
   	font-style: normal;
   	font-weight: normal;
-	font-size: 162px;
+	font-size: 140px;
 	line-height: 197px;
 	color: #2E54B7;
 	position: relative;
-	width: 2450px;
-	height: 176.98px;
-	left: -287.18px;
-	top: 365.37px;
+	width: 2400px;
+	height: 176px;
+	left: -236px;
+	top: 260px;
 	background: #E0E0E0;
 	transform: rotate(8deg);
 }
@@ -35,14 +35,14 @@ body {
 	font-family: Arial;
   	font-style: normal;
   	font-weight: normal;
-	font-size: 162px;
+	font-size: 140px;
 	line-height: 197px;
 	color: #000000;
 	position: absolute;
-	width: 2450px;
-	height: 177.8px;
-	left: -212px;
-	top: 360.37px;
+	width: 2400px;
+	height: 176px;
+	left: -190px;
+	top: 230px;
 	background: #FFFFFF;
 	transform: rotate(-7deg);
 }
@@ -61,8 +61,8 @@ body {
     position: absolute;
 	width: 236px;
 	height: 236px;
-	left: 835px;
-	top: 340px;
+	left: 749px;
+	top: 220px;
 	background: #2E54B7;
 }
 
