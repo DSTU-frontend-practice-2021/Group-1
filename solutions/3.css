@@ -1,0 +1,220 @@
+body {
+	background-color: white;
+}
+
+.object1 {
+    border-bottom: 3px solid white;
+    height: 100px;
+    width:230px;
+	margin-left:80px;
+}
+.shadow {
+    position: absolute;
+	margin-left:90px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: #FFC025;
+    top: 60px;
+	left: 90px;
+	height: 100px;
+    width: 230px;
+}
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-40px); }
+    100% { transform: translateX(0); }
+}
+	
+.rectangle {
+	position: absolute;
+    height: 100px;
+    width: 230px;
+	margin: 15px;
+	margin-left:50px;
+    border: #000000 solid 10px;
+    border-radius: 5px;
+}
+
+
+
+.sticks {
+	position: absolute;
+    animation: bounce-2 3s infinite linear;
+	transform-origin: 50% 100%;
+}
+
+.bounce-2 {
+    animation-name: bounce-2
+	animation-timing-function: linear;
+}
+
+@keyframes bounce-2 {
+    100% { transform: rotate(-360deg); }
+	
+}
+.one {
+	margin-left:45px;
+	position: absolute;
+    width: 11px;
+    height: 30px;
+	top: 90px;
+    background: #000000;
+    border-radius: 5px;
+}
+
+.two {
+	margin-left:45px;
+	position: absolute;
+    width: 11px;
+    height: 30px;
+    top:40px;
+    background: #000000;
+    border-radius: 5px;
+}
+
+.three {
+	margin:10px;
+	margin-left:60px;
+	position: absolute;
+    width: 30px;
+	height: 11px;
+	top:65px;
+	background: #000000;
+	border-radius: 5px;
+}
+
+.four {
+	margin: 10px;
+	position: absolute;
+    width: 30px;
+	height: 11px;
+	top:65px;
+	background: #000000;
+	border-radius: 5px;
+}
+
+.object3 {
+	margin-left:380px;
+}
+
+.circle1 {
+	position: absolute;
+    height: 100px;
+    width: 100px;
+	margin: 15px;
+	margin-left:50px;
+    border: #000000 solid 10px;
+    border-radius: 60px;
+}
+
+.circle3 {
+    position: absolute;
+	margin-left:380px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: #FFC025;
+    top: 60px;
+	left: 90px;
+	height: 100px;
+    border-radius: 60px;
+    
+    width: 100px;
+}
+.bounce-3 {
+    animation-name: bounce-3;
+    animation-timing-function: linear;
+}
+@keyframes bounce-3 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-40px); }
+    100% { transform: translateY(0); }
+}
+
+.circle2 {
+	position: absolute;
+    height: 30px;
+    width: 30px;
+	margin: 15px;
+	margin-left:85px;
+	margin-top:50px;
+    border: #000000 solid 10px;
+    border-radius: 60px;
+}
+
+.object4 {
+	margin-left:550px;
+}
+
+.dot {
+	position: absolute;
+    height: 110px;
+    width: 110px;
+	margin: 15px;
+	margin-left:50px;
+    border: #000000 solid 10px;
+    border-radius: 70px;
+	border-style: dotted;
+}
+
+.circle0 {
+	position: absolute;
+	margin-left:550px;
+    background-color: #FFC025;
+    top: 60px;
+	left: 90px;
+	height: 110px;
+    border-radius: 60px;
+
+    width: 110px;
+}
+
+.dot_rec {
+	position: absolute;
+    height: 130px;
+    width: 130px;
+	margin: 15px;
+	margin-left:750px;
+    border: #000000 solid 10px;
+    border-radius: 5px;
+	border-style: dotted;
+}
+
+.dot_rec1 {
+	position: absolute;
+    height: 90px;
+    width: 90px;
+	margin: 15px;
+	margin-left:770px;
+    border: #000000 solid 10px;
+    border-radius: 5px;
+	border-style: dotted;
+	margin-top: 35px;
+}
+
+.dot_rec2 {
+	position: absolute;
+    height: 50px;
+    width: 50px;
+	margin: 15px;
+	margin-left:790px;
+    border: #000000 solid 10px;
+    border-radius: 5px;
+	border-style: dotted;
+	margin-top: 55px;
+}
+
+.dot_rec3 {
+	position: absolute;
+    height: 11px;
+    width: 11px;
+	margin: 15px;
+	margin-left:810px;
+    border: #000000 solid 10px;
+    border-radius: 5px;
+	border-style: dotted;
+	margin-top: 75px;
+}
